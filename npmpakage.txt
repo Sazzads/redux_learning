@@ -1,0 +1,6 @@
+redux logger pakage=-----
+npm i --save redux-logger
+thunk install pakage-------
+    npm i redux-thunk
+axios pakage--
+npm install axios
