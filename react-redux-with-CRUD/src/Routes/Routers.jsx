@@ -5,6 +5,7 @@ import Home from "../Pages/Home";
 import Main from "../Layouts/Main";
 import AddBook from "../Features/Books/AddBook";
 import BooksView from "../Features/Books/BooksView";
+import EditBook from "../Features/Books/EditBook";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
             {
                 path:'/add-books',
                 element:<AddBook></AddBook>
+            },
+            {
+                path:'/edit-book',
+                element:<EditBook></EditBook>
             },
         ]
     },
